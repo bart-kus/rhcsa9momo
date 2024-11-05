@@ -29,7 +29,7 @@ At boot time, the OS reads a small region which is referred to as the Master Boo
 
 * parted = Partition (part) editor (ed)
 
-* `parted print` => View partition inforation
+* `parted print` => View partition inforation  `sudo parted /dev/sda print`
 
 * `parted mklabel` => Applies a label to the disk. Common labels are gpt and msdos.
 
